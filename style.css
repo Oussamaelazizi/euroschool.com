@@ -575,4 +575,40 @@ text-align: center;
       margin: 5px 0;
     }
   }
+
+@media (max-width: 390px)
+{
+    .menu .contenu h2{
+        font-size: 2.2em;
+        color: rgb(0, 0, 0);
+    }
+   
+    .Accueil{
+        position: relative;
+        width: 175%;
+        min-height: 100vh;
+    }
+    .footer{
+        
+        width: 175%;
+        min-height: 90vh;
+        background-image: url(./images/page2.png);
+        background-size: cover;
+    }
+
+.Adresse{
+    background-image: url(./images/k.png);
+    background-size: cover;
+    width: 175%;
+}
+.Courses .contenu{
+  
+    width: 175%;
+}
+.Fonctionnalit .contenu{
+    width: 175%;
+
+}
+
+}
   
